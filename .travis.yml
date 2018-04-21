@@ -3,7 +3,7 @@ node_js:
 - 9.10.1
 
 after_script:
-- scp -o StrictHostKeyChecking=no ./build-test ytg:/home/project -r
+- scp -o StrictHostKeyChecking=no ./build-test/app.js ytg:/root
 
 before_install:
 - cp .travis/ssh_config ~/.ssh/config
