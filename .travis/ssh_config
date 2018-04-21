@@ -1,7 +1,7 @@
-User root
-Host 192.168.80.129:22
-HostName 192.168.80.129
-Port 22
+User MrGuang123
+Host github.com
+HostName github.com
+Port 80
 StrictHostKeyChecking no
 IdentityFile ~/.ssh/id_rsa
 IdentitiesOnly yes
